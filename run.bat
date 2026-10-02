@@ -1,11 +1,11 @@
 @echo off
 setlocal
-title Lovable Project Launcher
+title REALITYX - 3D World Builder
 
 cd /d "%~dp0"
 
 echo ==========================================
-echo          LOVABLE PROJECT LAUNCHER
+echo          REALITYX - 3D WORLD BUILDER
 echo ==========================================
 echo.
 
@@ -37,7 +37,7 @@ call npm --version
 echo.
 
 if not exist "node_modules" (
-    echo [INFO] Installing dependencies...
+    echo [INFO] Installing REALITYX dependencies...
     echo [INFO] This may take several minutes.
     echo.
 
@@ -56,12 +56,13 @@ if not exist "node_modules" (
 )
 
 echo.
-echo [INFO] Starting development server...
+echo [INFO] Starting REALITYX...
+echo [INFO] Keep this window open.
 echo.
 
 call npm run dev
 
 echo.
-echo [INFO] Development server stopped.
+echo [INFO] REALITYX development server stopped.
 pause
 endlocal
